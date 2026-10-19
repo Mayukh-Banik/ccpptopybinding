@@ -33,7 +33,7 @@ class Parameter:
         """Return a compact human-readable representation of the parameter."""
         return f"Parameter : [Name : {self.name}, Type : {self.type}, Default Value : {self.defaultValue}]"
 
-    def binding(self) -> str:
+    def __str__(self) -> str:
         """Build the nanobind argument declaration for this parameter.
 
         Returns:

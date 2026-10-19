@@ -25,12 +25,12 @@ class Function:
             f"parameters={self.parameters!r})"
         )
 
-    def binding(self) -> str:
+    def __str__(self):
         parts = [
             f'"{self.pythonBindingName}"',
             f"&{self.fullyQualifiedName}",
         ]
         if self.parameters:
-            parts.extend(p.binding() for p in self.parameters)
+            parts.extend(str(p) for p in self.parameters)
 
         return f"{self.moduleName}.def({', '.join(parts)});"
