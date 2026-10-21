@@ -29,8 +29,8 @@ class Parameter:
         self.noconvert = noconvert
         self.sig = sig
 
-    def __repr__(self):
-        """Return a compact human-readable representation of the parameter."""
+    def __repr__(self) -> str:
+        """Returns all values in Parameter : [Key : Value, ...] format."""
         return f"Parameter : [Name : {self.name}, Type : {self.type}, Default Value : {self.defaultValue}]"
 
     def __str__(self) -> str:

@@ -2,7 +2,6 @@ import clang.cindex as ci
 from clang.cindex import CursorKind as K
 from pathlib import Path
 
-
 def in_main_file(node: ci.Cursor, tu: ci.TranslationUnit) -> bool:
     f = node.location.file
     return f is not None and f.name == tu.spelling
@@ -15,6 +14,7 @@ def walk(node: ci.Cursor):
 
 
 def traverse(tu: ci.TranslationUnit):
+    tu.PARSE_INCOMPLETE
     # Only descend into top-level nodes that come from our file,
     # so nothing inside <vector>, <string>, etc. is ever visited.
     for child in tu.cursor.get_children():
@@ -24,7 +24,7 @@ def traverse(tu: ci.TranslationUnit):
 
 def main():
     index = ci.Index.create()
-    tu = index.parse(str("example.cpp"), args=["-std=c++20"])
+    tu = index.parse(str("example.cpp"), args=["-std=c++20"], options=ci.TranslationUnit.PARSE_INCOMPLETE)
 
     for node in traverse(tu):
         if node.kind in (K.FUNCTION_DECL, K.CXX_METHOD, K.CONSTRUCTOR):
