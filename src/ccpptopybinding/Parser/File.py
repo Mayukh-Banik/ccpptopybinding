@@ -24,7 +24,7 @@ def traverse(tu: ci.TranslationUnit):
 
 def main():
     index = ci.Index.create()
-    tu = index.parse(str("example.cpp"), args=["-std=c++20"], options=ci.TranslationUnit.PARSE_INCOMPLETE)
+    tu = index.parse(str("example.hpp"), args=["-std=c++20"], options=ci.TranslationUnit.PARSE_INCOMPLETE)
 
     for node in traverse(tu):
         if node.kind in (K.FUNCTION_DECL, K.CXX_METHOD, K.CONSTRUCTOR):
@@ -37,3 +37,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+class File:
+    def __init__(self,
+                 *,
+                 file,
+                 index : ci.Index):
+        pass
