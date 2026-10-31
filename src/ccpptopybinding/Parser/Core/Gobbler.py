@@ -16,10 +16,12 @@ class Gobbler:
         """Initialize the gobbler and immediately collect matching files.
 
         Args:
-            parameters: Tuples of ``(directory, regex, include_dir)``. The
-                directory is traversed recursively, ``regex`` is searched
-                against each normalized absolute file path, and ``include_dir``
-                is prepended to the path relative to the directory when set.
+            parameters: Tuples of ``(directory, regex, include_dir)``. 
+            Directory - Either absolute or relative path.
+            Regex - Regex that is ran at Directory.
+            IncludeDir - It should be the folder that will be used in the include
+            section, ie if path if "Absolute/Path", then include dir should
+            be "Path" so in the Cpp binding file, it is "Path/to/file.hpp".
 
         Attributes:
             parameters: The collection configuration supplied by the caller.
@@ -54,7 +56,7 @@ class Gobbler:
 
 if __name__ == "__main__":
     gobbler = Gobbler([
-        ("src", r".*\.py$", "src")
+        ("/Users/mayukhbanik/coding/ccpptopybinding", r".*\.py$", "src")
     ])
 
     if gobbler.files:
