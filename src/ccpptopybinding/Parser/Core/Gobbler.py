@@ -1,23 +1,33 @@
 import os
+import re
+
 
 class Gobbler:
-    def __init__(
-            self, 
-            workingDirectory: str | None = None):
-        self.workingDirectory = workingDirectory
-        self.outputDir : str | None = None
+    def __init__(self, parameters: list[tuple[str, str]]):
+        self.parameters = parameters
+        self.files: list[str] = self._gobble()
 
-    @staticmethod
-    def singleFile(
-        *, 
-        filePath: str
-        ) -> Gobbler:
-        if not os.path.isfile(filePath):
-            raise FileNotFoundError(f"Not a file: {filePath}")
-        return Gobbler(workingDirectory=os.path.dirname(os.path.abspath(filePath)))
+    def _gobble(self) -> list[str]:
+        matches = []
+        for directory, regex in self.parameters:
+            pattern = re.compile(regex)
+            for root, _dirs, filenames in os.walk(directory):
+                for name in filenames:
+                    full_path = os.path.abspath(os.path.join(root, name))
+                    normalized = full_path.replace(os.sep, "/")
+                    if pattern.search(normalized):
+                        matches.append(full_path)
+        return list(dict.fromkeys(matches))
 
-    def setOutputDir(
-            self,
-            outputDir : str
-    ) -> None:
-        self.outputDir = outputDir
+
+if __name__ == "__main__":
+    gobbler = Gobbler([
+        ("src", r".*\.py")
+    ])
+
+    if gobbler.files:
+        print(f"Found {len(gobbler.files)} file(s):")
+        for f in gobbler.files:
+            print(f"  {f}")
+    else:
+        print("No matching files found.")
