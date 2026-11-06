@@ -16,10 +16,11 @@ class Gobbler:
         """Initialize the gobbler and immediately collect matching files.
 
         Args:
-            parameters: Tuples of ``(directory, regex, include_dir)``. The
-                directory is traversed recursively, ``regex`` is searched
-                against each normalized absolute file path, and ``include_dir``
-                is prepended to the path relative to the directory when set.
+            parameters: Tuples of ``(directory, regex, include_dir)``. 
+                Directory is the directory where the regex will be started from
+                in order to pattern match the files. The include dir is meant as a helper
+                later on where the C++ binding file might need to include that file,
+                so the intended usage is to #include "includeDir/path/to/file.hpp"
 
         Attributes:
             parameters: The collection configuration supplied by the caller.
@@ -38,17 +39,16 @@ class Gobbler:
             optionally prefixed by its ``include_dir`` value.
         """
         matches: dict[str, str] = {}  # keyed by full path to drop duplicates
-        for directory, regex, include_dir in self.parameters:
+        for directory, regex, _ in self.parameters:
             pattern = re.compile(regex)
             base = os.path.abspath(directory)
-            for root, _dirs, filenames in os.walk(directory):
+            for root, _, filenames in os.walk(directory):
                 for name in filenames:
                     full_path = os.path.abspath(os.path.join(root, name))
                     normalized = full_path.replace(os.sep, "/")
                     if pattern.search(normalized):
                         rel = os.path.relpath(full_path, base).replace(os.sep, "/")
-                        rel_path = f"{include_dir}/{rel}" if include_dir else rel
-                        matches[full_path] = rel_path
+                        matches[full_path] = rel
         return list(matches.items())
 
 
