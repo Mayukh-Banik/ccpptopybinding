@@ -17,10 +17,11 @@ class Gobbler:
 
         Args:
             parameters: Tuples of ``(directory, regex, include_dir)``. 
-                Directory is the directory where the regex will be started from
-                in order to pattern match the files. The include dir is meant as a helper
-                later on where the C++ binding file might need to include that file,
-                so the intended usage is to #include "includeDir/path/to/file.hpp"
+            Directory - Either absolute or relative path.
+            Regex - Regex that is ran at Directory.
+            IncludeDir - It should be the folder that will be used in the include
+            section, ie if path if "Absolute/Path", then include dir should
+            be "Path" so in the Cpp binding file, it is "Path/to/file.hpp".
 
         Attributes:
             parameters: The collection configuration supplied by the caller.
@@ -54,7 +55,7 @@ class Gobbler:
 
 if __name__ == "__main__":
     gobbler = Gobbler([
-        ("src", r".*\.py$", "src")
+        ("/Users/mayukhbanik/coding/ccpptopybinding", r".*\.py$", "src")
     ])
 
     if gobbler.files:
