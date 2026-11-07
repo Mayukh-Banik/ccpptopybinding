@@ -40,17 +40,16 @@ class Gobbler:
             optionally prefixed by its ``include_dir`` value.
         """
         matches: dict[str, str] = {}  # keyed by full path to drop duplicates
-        for directory, regex, include_dir in self.parameters:
+        for directory, regex, _ in self.parameters:
             pattern = re.compile(regex)
             base = os.path.abspath(directory)
-            for root, _dirs, filenames in os.walk(directory):
+            for root, _, filenames in os.walk(directory):
                 for name in filenames:
                     full_path = os.path.abspath(os.path.join(root, name))
                     normalized = full_path.replace(os.sep, "/")
                     if pattern.search(normalized):
                         rel = os.path.relpath(full_path, base).replace(os.sep, "/")
-                        rel_path = f"{include_dir}/{rel}" if include_dir else rel
-                        matches[full_path] = rel_path
+                        matches[full_path] = rel
         return list(matches.items())
 
 
