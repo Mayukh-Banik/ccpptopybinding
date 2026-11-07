@@ -1,0 +1,514 @@
+================================================================================
+                           3M 301 MAINTENANCE PERSON
+================================================================================
+
+Purpose of 3M System: Provides maintenance and material managers throughout the
+Navy with processes and tools for planning, acquiring, organizing, directing,
+controlling, and evaluating the manpower and material resources used to support
+maintenance.
+
+The goal of the Ship's 3M Program is to manage maintenance support to achieve
+maximum equipment operational readiness.
+
+PRIMARY 3M INSTRUCTIONS
+-----------------------
+1. NAVSEAINST 4790.8 Series: Also known as the Ship's 3M Manual, provides a
+   detailed explanation of 3M components including MIPs and MRCs as well as
+   processes such as submitting feedback reports and equipment configuration
+   changes (OPNAV 4790/CK).
+2. COMUSFLTFORCOMINST 4790.3 Volume VI Chap 19: Also known as the JFMM, provides
+   a list of the responsibilities at each level of the Chain of Command,
+   instructions for management of the 3M program and inspection procedures for
+   all commands separated by TYCOM. (Chapter 19-6 for Naval Surface Forces)
+3. COMNAVSURFPAC/COMNAVSURFLANTINST 4790.1 Series: Outlines the process by which
+   surface forces certify their 3M programs. Outlines the functions of the 3M
+   365 program and explains how each 3M pillar is scored.
+
+SUPPLEMENTAL 3M INSTRUCTIONS
+----------------------------
+1. OPNAVINST 5100.19 Series: Navy Safety and Occupational Health for Forces
+   Afloat, provides safety instructions for all afloat forces. Directly
+   referenced in every MRC onboard.
+2. OPNAV M-5100.23: (Formerly OPNAVINST 5100.23 Series) Navy Safety and
+   Occupational Health Manual, directs the construction and administration of
+   safety programs across the Navy. The defining safety instruction for all
+   shore-based activities.
+3. NSTM 670: (Formerly OPNAVINST 5100.28 Series) Hazardous Material User's
+   Guide, or HMUG. Provides handling, PPE, and emergency responses for hazmat,
+   separated by hazard group. Guidance is generalized and does not override
+   protective requirements listed on MSDS; when instructions differ, use the
+   highest level of protection recommended.
+4. NAVSEA Tech Pub - Tagout Users Manual: Also known as TUM, provides direction
+   for tag-out process and outlines responsibilities at all levels.
+
+COMPONENTS OF 3M SYSTEM
+-----------------------
+1. PMS: Planned Maintenance System is used to maintain equipment within design
+   specifications through preventive maintenance and to identify and correct
+   potential problems before the equipment or system becomes inoperable.
+2. MDS: Maintenance Data System provides information and reports for fleet
+   maintenance and maintenance support. Includes the Current Ship's Maintenance
+   Project (CSMP) and gathers maintenance history, which is stored in the Ship's
+   3M System Database.
+
+CHAIN OF COMMAND ROLES & RESPONSIBILITIES
+-----------------------------------------
+NOTE: This is a simplified list of responsibilities and is NOT all-inclusive.
+Detailed information is available in JFMM Vol VI Chap 19-6.2.
+
+- Commanding Officer: responsible for establishing an aggressive Self-Assessment
+  program that validates the administration and execution of maintenance and
+  detects improperly conducted maintenance or falsely reported accomplishments.
+- Executive Officer: The Command's 3M Manager, responsible to CO for the
+  management of the 3M program. Tasked with ensuring the effectiveness of the 3M
+  Self-Assessment program, final review of any shifts of maintenance
+  responsibility between departments, and ensuring personnel receive adequate
+  and effective 3M training. Required to approve all split MIPs.
+- 3M Coordinator: The 3MC serves as 3M Assistant to the XO. Serves as the ship's
+  technical expert in the 3M program, advising the chain of command to the
+  current status of the program and managing day-to-day operation. Responsible
+  for reviewing and maintaining the CSMP, overseeing all updates to the SKED
+  program, managing 3M PQS qualification, and maintaining a log of all changes,
+  directives, and notices related to all work centers carried onboard, as well
+  as distributing information to all work centers.
+- Department Head: Responsible to the XO for the operation and execution of 3M
+  within the department. Tasked with review and approval for all 3M alerts and
+  LEM status, digitally signing all FBRs within 5 days of origin, designating
+  all 3M personnel in writing, and maintaining a self-assessment program within
+  the department. Reports all changes in status of 3M to the XO.
+- Department 3M Assistant: Serves to assist the 3MC in coordinating and
+  supervising administration of the 3M program for their department. Offers
+  assistance and direction to WCS within their department and advises the DH on
+  the status of departmental 3M.
+- Division Officer: Responsible to the DH for execution of maintenance within
+  the division. Required to review and approve weekly close out on the first
+  workday of each week, conduct 3M spot checks, review divisional work
+  candidates and approve parts on order, and ensure 3M documents are submitted
+  to DH in a timely manner. Also required to review and approve FBRs within 3
+  days of origin.
+- Leading Chief Petty Officer: Responsible for ensuring all division personnel
+  are properly trained and equipped to conduct maintenance and WCS are
+  knowledgeable of their maintenance requirements. Also responsible for
+  approving all lineouts and approving work completed by outside authorities.
+  Initiates Work Center revisions and may approve weekly close out in absence of
+  DIVO.
+- Work Center Supervisor: Responsible to the DIVO and LCPO for scheduling and
+  assigning maintenance within the Work Center, maintaining an accurate and
+  current LOEP, maintaining a 13-week accountability log, keeping the CSMP and
+  configuration data for the Work Center current, submitting FBRs any time MRCs
+  are unclear or contain errors, reviewing Forecasting Report to ensure tools,
+  parts, materials and test equipment are available for maintenance tasks, and
+  ensuring Work Center personnel are appropriately trained and qualified to
+  perform all required maintenance.
+- Repair Parts Petty Officer: Interfaces with Supply personnel to acquire
+  required tools, materials, and repair parts in support of corrective and
+  preventive maintenance. Responsible to WCS and LCPO for tracking outstanding
+  requisitions and turn-in for depot level repair (DR) items as well as
+  inventory of any Maintenance Assist Modules (MAMs).
+- Maintenance Person: Responsible to WCS to perform any assigned maintenance,
+  report completion of maintenance, and inform the WCS of any questions or
+  discrepancies regarding assigned maintenance or the status of equipment in the
+  Work Center.
+
+KEY TERMS
+---------
+List Of Effective Pages (LOEP): A listing of Maintenance Index Pages (MIP) for
+systems and equipment assigned to each work center, those systems and equipment
+not requiring PMS, or those systems and equipment currently being evaluated for
+PMS. Also known as PMS-5 Report.
+
+Maintenance Index Page (MIP): A complete index of Maintenance Requirement Cards
+(MRC) applicable to a ship system, subsystem, or equipment.
+
+Maintenance Requirement Card (MRC): Provides detailed procedures for performing
+maintenance requirements and describes who, what, when, how, and with what
+resources a specific maintenance requirement will be accomplished.
+
+PERIODICITY CODES
+-----------------
+Periodicity Codes: Identify the interval in which a maintenance task must be
+performed. There are three categories of periodicity: calendar, non-calendar,
+and IEM.
+
+Calendar Periodicity Codes: Start with a letter representing the period
+designated between performance requirements:
+  - D = Daily
+  - W = Weekly
+  - M = Monthly
+  - Q = Quarterly
+  - S = Semi-Annually
+  - A = Annually
+
+A number preceding the letter represents a number of days/weeks/months in the
+period, i.e. 2D = Every two days and 36M = Every 36 months. Numbers do not
+appear for Q, S, or A periodicities.
+
+Non-Calendar Periodicity Codes: Maintenance performed for a specific event
+instead of a period of time.
+  - R = Situational Requirement (Getting underway, prior to each use)
+  - U = Unscheduled Maintenance (Directed by another MRC from a specific
+    condition or used to recover from equipment casualty)
+  - AP = Assessment Procedure (directed by an outside activity like INSURV or
+    ISEA)
+
+Inactive Equipment Maintenance (IEM) Codes: Maintenance related to items placed
+in an IEM status.
+  - LU = Lay-Up - Placing in IEM
+  - PM = Periodic Maintenance - Maintenance required to be performed after
+    equipment has been in IEM for a designated period of time
+  - SU = Start-Up - Removing from IEM
+  - OT = Operational Test - Intended to ensure equipment is operational after
+    completing IEM status.
+
+Periodicity Code Numbering: The periodicity code also includes a number for
+specific identification. MRCs are typically numbered consecutively, e.g. "M-1",
+"M-2", "M-3", etc. Sometimes MRCs will be added or removed over the life of a
+MIP so the sequence is no longer in direct sequential order. Non-sequential
+numbers will not affect scheduling or management control.
+
+SYSCOM MRC CONTROL NUMBER
+-------------------------
+A 7-character alphanumeric code that identifies a specific version of an MRC. It
+is made up of three parts:
+
+  Example:  81  9NUC  N
+            |    |    |
+            |    |    +-- Parts Required
+            |    +------- Library Control Number
+            +------------ Date Code
+
+Date Code: Two characters that represent the last time the MRC was updated.
+First character value 1-9/A/B/C for the month; 1=January, 9=September,
+A=October, B=November, C=December. Second character is the last digit of the
+year; 8=2018. All MRCs are rewritten at least once every 10 years in order to
+maintain the system. So: A date code of 21 would apply to an MRC written or
+revised in February 2021. A date code of C7 would be an MRC that hasn't been
+changed since December 2017. MIPs also have a date code, after the 7-digit MIP
+number (e.g. 4371/003-31).
+
+Library Control Number: A 4-character code that is a unique identifier for that
+MRC. If evidence shows an annual check needs to be done semiannually, the A-5
+may be changed to an S-3, depending on how many MRCs are already in the MIP with
+those numbers. But the index number will not change until that MRC is retired or
+massively rewritten.
+
+Parts Required: A single letter code that is important to planning maintenance.
+An "N" means no repair parts are required for completion of the check. A "Y"
+means that there are parts that must be acquired prior to performing the
+maintenance. Since work centers are not permitted to stockpile spare parts, the
+"Y" code is required by supply to justify ordering parts for equipment that has
+not yet failed. There is also a "U" code seen on "U" periodicity MRCs. These
+MRCs can also justify ordering parts but since they aren't scheduled the parts
+can only be ordered when the trigger event for the "U" check has occurred.
+
+RATES
+-----
+Rates: The rate listed on an MRC identifies the recommended skill level of the
+person(s) capable of performing the maintenance requirement and the number of
+persons required to perform the maintenance requirement. Qualified personnel
+other than the rate or rank specified may be assigned. Substitution of other
+personnel is NOT allowed when an NEC code, DCPO or Safety PO is assigned.
+
+TOOLS, PARTS, MATERIALS, TEST EQUIPMENT (TPME)
+----------------------------------------------
+All items are identified by Standard PMS Item Name (SPIN) number in brackets.
+The SPIN is a number assigned to TPMTE that can be referenced against the
+Standard PMS Materials Identification Guide (SPMIG) to identify NSN for
+ordering. TPMTE is separated into five basic categories:
+1. Test Equipment. Only used for General Purpose Portable Electrical and
+   Electronic Test Equipment (GPETE). Should be listed by subcategory (SCAT)
+   code which identifies a group of appropriate test equipment models. Approved
+   models can be found by searching for SCAT code on the Test, Measurement, and
+   Diagnostic Equipment Index (TMDE-I). Each command has a designated inventory
+   for PETE based upon its maintenance requirements.
+2. Materials. Include a wide range of administrative supplies and housekeeping
+   items which may or may not be entirely consumed. Examples include paper or
+   hazmat which may be consumed in performance of the MRC or buckets, ladders
+   and funnels which are not.
+3. Parts. Any items which are an integral component of the equipment. This
+   includes items such as gaskets, light bulbs and filters. Items in this
+   category will be found listed in the APL/AEL.
+4. Tools. All common hand tools with the exception of "special tools" unique to
+   the equipment being worked on. Includes hammers, wrenches, screwdrivers, etc.
+5. Miscellaneous. Covers all items not otherwise covered under the other four
+   categories. This will include tools unique to the equipment such as a custom
+   spacer tool or special interface cable, as well as maintenance laptops and
+   instructions related to the MRC. This includes items that appear on an APL
+   but are not normally installed in equipment during operation.
+
+VALIDATING AN MRC
+-----------------
+To ensure you are using the correct, current MRC:
+1. Compare the SYSCOM MRC number printed on the MRC to the number printed on the
+   MIP. Ensure the date code matches on both.
+2. Compare the full SYSCOM MIP number on the MIP to the LOEP. Ensure the date
+   code matches on both. (NOTE: The LOEP is not printed in paperless
+   configurations like onboard BAINBRIDGE. The MIP loaded in SKED will always be
+   the most recent and correct version available onboard.)
+3. Compare the FR number and date of change on LOEP to the Change Page in the
+   PMS Manual. Ensure dates match. (Again, this does not apply in paperless
+   configurations like BAINBRIDGE.)
+
+FEEDBACK REPORTS (FBR)
+----------------------
+Used to report problems with PMS and also to request PMS coverage for newly
+installed systems or equipment. Generated inside SKED and then exported by the
+3MC for submission to Naval Sea Logistics Center (NSLC) for processing. Required
+to be approved and released by the command within 7 days of creation. There are
+two types of FBR:
+1. CAT A (Non-Technical): Intended to meet PMS needs which do not require
+   technical review, including changes to Work Center LOEPs. Also submitted to
+   request classified PMS documents which cannot be generated locally.
+2. CAT B (Technical): Used to report technical discrepancies inhibiting
+   performance of PMS. Classified into Routine or Urgent.
+  a. Routine: An FBR that is not related to safety of the ship or personnel.
+     Used to report technical discrepancies or request clarification of MRC
+     procedures. Response is due from Technical Review Activity within 21 days.
+     This is the most common type of FBR.
+  b. Urgent: Involves the safety of personnel, safety of ship, or potential for
+     equipment damage if the MRC is followed as written. Urgent FBRs are
+     forwarded to NSLC, the cognizant SYSCOM, BUMED, NAVSAFECEN and TYCOM by
+     naval message including the PMS FBR Serial Number. The message must
+     describe the unsafe procedure or conditions as well as the MIP/MRC
+     involved. SYSCOM or BUMED is required to respond within one working day of
+     receipt and the response is distributed to all commands carrying the MIP
+     via all TYCOMS.
+
+INACTIVE EQUIPMENT MAINTENANCE (IEM)
+------------------------------------
+A state for equipment that will not be in use for a specific period of time in
+which maintenance is "hibernated". NOTE: Any maintenance that would be scheduled
+during an IEM period is REQUIRED to be completed upon exiting the IEM state.
+1. Type I IEM: Equipment that will:
+  a. Remain onboard
+  b. Is not scheduled for corrective maintenance or overhaul, or
+  c. Will be inactive during extended shutdown periods and maintenance
+     availabilities as determined by the Department Head.
+2. Type II IEM: Equipment that is inactive and:
+  a. Subject to corrective maintenance, overhaul, or removal for safe storage,
+  b. Temporarily transferred to another activity for maintenance responsibility
+     for extended shutdown periods as determined by the Department Head.
+
+Certain PMS is still required on equipment while in IEM to ensure continued
+viability: These will be found with PM periodicity codes. Any LU, SU, and OT
+MRCs that apply to the equipment will also be required when entering or exiting
+an IEM status. IEM status is solely at the discretion of the Department Head and
+requires their signature to initiate or remove.
+
+TAG-OUT
+-------
+Used to secure valves, electric circuits, and other controls to prevent risk to
+personnel or equipment while maintenance is being performed. Tags come in two
+forms:
+1. CAUTION Tag: Yellow in color, provides specific instructions for when and how
+   equipment is permitted to be used.
+2. DANGER Tag: Red in color, equipment is not to be energized or activated in
+   any way while tag is present.
+
+Tags can only be hung for up to 24 hours when tag-out is conducted for
+preventive maintenance. Tag-out for corrective maintenance or IEM can remain
+until the situation that caused the IEM or CM is resolved. When a tag is
+hanging, it carries the authority of an order from the Commanding Officer. Any
+tag that is found to be damaged or removed from its hung position should be
+immediately reported to the authorizing officer and the Department Head, and
+work on the affected equipment must stop immediately until the equipment status
+can be identified and tags re-hung.
+
+The tag-out process for PMS is as follows:
+1. Maintenance person identifies the item required for tag-out and requests
+   tag-out in the eTagout program. The reason is the MIP/MRC and the applicable
+   documentation is any available drawings that support identification of that
+   item as the one that will isolate the equipment to be worked on.
+2. A second person logs into eTagout to verify the item is correctly identified
+   based on the applicable documentation.
+  a. If there is a Repair Activity involved (common in shipyard/availability
+     periods) they also have to verify documentation.
+3. Maintenance person goes to the applicable authorizing officer (CSOOW or EOOW)
+   and presents the applicable documentation to justify the tag-out and prove it
+   will properly isolate the equipment.
+4. If Authorizing Officer (AO) agrees with documentation and tag position, they
+   will generate tag label and Tag Hanging Sheet (THS).
+5. Qualified maintenance person takes tag and THS, locates the
+   breaker/valve/control, places it into the tag-out position (secured/off/etc)
+   and hangs the tag on the breaker/valve/control itself.
+6. Maintenance person then signs the tag and THS and returns to AO.
+7. Second qualified person takes the THS and locates the tag, independently
+   verifying it is hanging in the correct place and equipment is in the correct
+   position. Second person does not have to be the same one that verified
+   documentation unless directed by local instruction.
+8. Second person signs the tag and the THS, leaving the tag hanging in position.
+   They then return THS to the AO.
+  a. If Repair Activity is involved, an additional qualified RA representative
+     will have to verify tags.
+9. When AO accepts tags are hung and files THS as an active tag-out, work may
+   begin.
+
+After work is complete, the following process will be used to clear tags:
+1. Responsible Work Center representative will log in to eTagout and mark "Work
+   Complete" for tags ready to be cleared.
+  a. If Repair Activity is involved, RA representative also must verify "Work
+     Complete" before tag-out can be cleared.
+2. Authorizing Officer will acknowledge work complete and print Tag Removal
+   Sheet (TRS).
+3. Maintenance person takes TRS, locates tag, removes it and restores the
+   breaker/valve/control/etc to normal operating position, and then signs TRS
+   with time the tag was removed.
+4. Maintenance person returns TRS and tag to AO, and then destroys the tag in
+   the presence of AO.
+5. AO files TRS with Line Item Record Sheet (LIRS) as a cleared tag-out.
+
+If THS or TRS is damaged or fails to print, AO can generate a Line Item Record
+Sheet (LIRS) to function in place of THS/TRS.
+
+For more information, the eTagout program has a "Help" tab available.
+
+AWN
+---
+AWN: Automated Work Notification is the website currently in use as USS
+BAINBRIDGE's Maintenance Data System, or MDS. It is accessible through the MFOM
+Afloat Toolbox for Maintenance, found at:
+  https://mfom.ddg96.navy.mil/ATM/ConsentBanner.aspx
+Through this locally hosted web platform, personnel can perform common MDS
+tasks:
+
+Equipment Configuration Alteration: Also known as OPNAV 4790/CK. Most commonly
+accessed through Equipment Validations, this tool is used to alter, correct, and
+validate any piece of equipment currently carried onboard. These validations are
+very important because they build a history of maintenance actions taken on the
+equipment in question, and accurate reporting will help NSC track the
+reliability and maintenance needs for similar equipment across the fleet. Each
+item has a specific Record Identification Number, or RIN, assigned by the ship's
+Configuration Data Manager, or CDM.
+
+Deferred Work Notification: A work notification, also known as OPNAV 4790/2K
+after the form it used to be written on, is the method used to record work
+required or that has been completed on any shipboard system, component, or
+surface. The sum of all currently active WNs onboard are collectively referred
+to as the Current Ship's Maintenance Project, or CSMP. The WN has a number of
+required inputs:
+1. Equipment: The specific equipment or space the WN is written about. This
+   should be as specific as possible; if it is a job on the TAO console in CIC
+   you should not be using the RIN for the RSC console.
+2. JCN: The Job Control Number, assigned sequentially when 3MC marks the WN as a
+   2-Kilo Job. Becomes the official reference number until the job is closed.
+3. Summary: A brief description of the problem. The combination of this block
+   and the equipment line should tell you "what happened where" for the issue
+   you are reporting.
+4. Problem Description: This is where you explain the issue at hand. You should
+   use plain English (jargon only where professionally applicable) and be as
+   descriptive as possible. This may be what sets up a tech assist or repair
+   team visit, so you need to provide an explanation clear enough that it's the
+   only briefing necessary to get the aid required.
+5. Recommendation: The second half to your description. Again, explain clearly
+   and directly what you think would help, whether it's requesting distance
+   support, ordering parts, getting another work center to assist, or having a
+   flooring team resurface your decking. If you're asking for a pipe, deck, or
+   lagging to be replaced, you must give the dimensions required so that the job
+   is accurately bid. Without measurements, space repair WNs WILL be rejected.
+6. POC: First POC should be the person writing the WN. Second will be the LCPO
+   or DLCPO.
+7. Safety Related: Any mark other than "BLANK" requires review by command Safety
+   Officer.
+8. Priority: Always 4 (Desirable) unless there is a CASREP associated with the
+   JCN. A Cat 2 CASREP gets Priority 3 (Highly Desirable), Cat 3 - Priority 2.
+9. Type Avail: [Source text garbled here] ... required: 4 is your WC and 4B is
+   any other WC on the ship. 4B needs an assist WC listed. Any other level will
+   be sent off ship for review.
+
+NOTE: When writing a job in AWN characters will auto-capitalize. But when a job
+is exported the auto-capitalization will not carry over and many jobs and
+comments come out in all lowercase. Therefore, it is highly recommended to
+either turn CAPS LOCK ON when entering jobs or write everything in a program
+like MS Word and copy it over when complete.
+
+Supporting Illustration: Also known as OPNAV 4790/2L after the official form
+that used to be required, now includes any drawing, digital photo, tech pub
+figure, or CAD file that supports and illustrates the issues or required
+solution for an outside activity. Not currently available in AWN but may be
+forwarded to outside activities via email or DoDSafe.
+
+Further information on AWN can be found in the MOM AWN Software manual,
+EE660-AK-SUM-010, or in the "Help" tab on AWN.
+
+SKED 3.2
+--------
+SKED 3.2: The program used for scheduling and accounting for PMS throughout the
+Navy. Some of its notable features include:
+- True Interval Scheduling, which means that a monthly check is automatically
+  scheduled 29 days after it is completed, annual checks are scheduled 364 days
+  later, and so on. It can also automatically schedule multiple checks with a
+  single trigger, such as entering port or refueling at sea.
+- Equipment-based schedules, where each RIN is tied to the maintenance performed
+  on it so trends can continue to be monitored throughout the fleet.
+- Schedule, Review, and Forecasting Displays. These permit Work Center
+  Supervisors to see periodicity markers, man-hour tallies, and other equipment
+  details.
+- Automated Workflow. Each user has a personalized dashboard that displays
+  maintenance assigned to them, spot checks scheduled, and relevant alerts.
+- Electronic Line-Outs. Permits WCS to automatically tailor their MIPs and MRCs
+  without drawing lines and electronically route them for approval by LCPO/DIVO.
+- Tailored Force Revision. Allows the NSLC to send each command a revision that
+  already includes their MIPs and Line-outs, minimizing the work required by
+  each Work Center to install the new FR each quarter.
+
+SKED 3.2 has a number of View Tabs, which each perform a different function.
+Some tabs are not available to all users, depending on permissions. The views
+are: My Tasks, Workcenter, PMS Viewer, FBR, SPMIG, Spot Checks, Training, LOEP
+Manager, Events, Reports, and Admin. The View Tabs can also be accessed through
+the "View" drop-down menu on the Menu Bar.
+
+The following are the views relevant to the Maintenance Person.
+
+My Tasks View: The default view when you log in to SKED. This is tailored to
+your role in SKED and may include a Summary view displaying metrics for Work
+Centers under your authority. All hands will have a Tasks view displaying all
+checks assigned in the next two weeks, any spot checks scheduled, PMS alerts,
+weekly closeouts, and revision/lineout approvals, as they apply. You can also
+change your password and manage your CAC login in the "My Tasks" drop-down menu.
+
+Workcenter View: This is the most commonly used view in normal SKED operation.
+When first opened, you must select a work center to view. Only one work center
+can be viewed at a time. There are several panels available in Workcenter View:
+- Schedule Display. Lists all maintenance tasks for the selected Work Center in
+  the active quarter. Default view is broken up by week, but can also view by
+  equipment or crew. Functions available include add/delete/reschedule check,
+  assign crew, mark complete/lost, and enter Check Note.
+- Review Display. Allows the user to view maintenance history. List is separated
+  by MIP and then equipment groups. In this view you can see the last time each
+  MRC was completed and the date range available for the next occurrence.
+- Forecast Display. Shows upcoming checks for the quarter, listed by equipment
+  or by crew member. Can also be adjusted to view Man Hours or Elapsed Time for
+  each week's maintenance.
+- Situational Display. Shows situational maintenance ("R" checks) listed by
+  triggering event. The "Events" view can be used to set local states or
+  triggers for multiple pieces of equipment simultaneously, and the "Custom
+  Events" view can be used to build local triggers for multiple checks.
+- IEM Display. Shows equipment previously or currently in IEM broken up by MIP.
+  This is the view used by the Department Head to set equipment in IEM status.
+- Journal Display. Shows every action taken in the work center, which crew
+  member did it and the date/time the action occurred. Listed by category or
+  date. This is the tool used by inspectors to verify each crew member is
+  performing their designated role and not acting outside their official
+  capacity.
+- PMS Documents Display. Lists all MIPs and MRCs carried in the WC. From here
+  you can print current MRCs and MIPs with all locally added updates, lineouts
+  and LLs already inserted.
+
+FBR View: Allows personnel to enter Feedback Reports (FBRs) for technical
+clarification or administrative update. FBRs are generated via Feedback Wizard.
+Verbiage should be similar to a job. Write clearly and directly in plain
+language to best explain the problem and any recommended solution. Once the FBR
+is submitted, the chain of command has 3-5 calendar days to approve and 3MC must
+forward off ship by the 7th day after generation. Urgent FBRs must have naval
+message DTG included in the request.
+
+SPMIG View: Searchable listing of all TPMTE associated to any listed
+maintenance. Excellent resource to verify correct materials or identify NIIN for
+RPPO. Includes SCAT Codes for test equipment.
+
+Training View: Provides training videos for SKED processes.
+
+Reports View: Allows generation of reports for print or export, including 13
+Week Reports or Forecasting reports for parts or HAZMAT.
+
+Further information available in SKED 3.2 help file.
