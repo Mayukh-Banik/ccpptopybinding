@@ -55,7 +55,7 @@ class Gobbler:
 
 if __name__ == "__main__":
     gobbler = Gobbler([
-        ("/Users/mayukhbanik/coding/ccpptopybinding", r".*\.py$", "src")
+        ("src", r".*\.py$", "src")
     ])
 
     if gobbler.files:
