@@ -2,6 +2,12 @@ import clang.cindex as ci
 from clang.cindex import CursorKind as K
 from pathlib import Path
 
+
+FILES = []
+
+for x in FILES:
+    pass
+
 def in_main_file(node: ci.Cursor, tu: ci.TranslationUnit) -> bool:
     f = node.location.file
     return f is not None and f.name == tu.spelling
